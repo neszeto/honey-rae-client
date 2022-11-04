@@ -11,7 +11,7 @@ export const EmployeeList = () => {
         () => {
             fetchIt("http://localhost:8000/employees")
                 .then(changeEmployees)
-                .catch(() => changeEmployees([]))
+               // .catch(() => changeEmployees([]))
         },
         []
     )
